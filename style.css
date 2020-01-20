@@ -1,0 +1,21 @@
+.charts-container{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+tspan,text{
+    font-weight: bold;
+}
+
+.page-footer{
+    background-color: #6c757d;
+    color: #fff
+}
+.footer-copyright{
+    background-color: #343a40;
+    color: #8daac2
+}
+.footer-copyright a{
+    text-decoration: none;
+    color: #fff !important;
+}
