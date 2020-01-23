@@ -196,7 +196,6 @@ function generate_charts_users(users_dict) {
     let columns_data = new Array();
     let nat_keys = users_dict['nationalities'];
     let nat_names = new Array();
-    let x_names = new Array();
     nat_names.push('x');
     let nat_values = new Array();
     nat_values.push('Liczba użytkowników')
@@ -260,7 +259,6 @@ function generate_charts_users(users_dict) {
                 break;
         }
         nat_names.push(full_name);
-        x_names.push(full_name);
     };
 
     columns_data.push(nat_names)
